@@ -11,7 +11,7 @@ Download Ubuntu 22.04 ISO from: [Ubuntu 22.04](https://ubuntu.com/download/deskt
 - Name: **ShellAPC_VM**
 - Type: **Linux**
 - Version: **Ubuntu (64-bit)**
-- Allocate at least **4 CPU cores, 8GB RAM, and 50GB of disk space**
+- Allocate at least **4 CPU cores, 8GB RAM, and 100GB of disk space**
 - Enable **3D Acceleration** under Display settings
 
 ## Install Ubuntu 22.04
