@@ -3,7 +3,7 @@
 ## Prerequisites
 
 Download and install VirtualBox from: [VirtualBox](https://www.virtualbox.org/)
-Download Ubuntu 22.04 ISO from: [Ubuntu 22.04](https://ubuntu.com/download/desktop)
+Download Ubuntu 22.04 ISO from: [Ubuntu 22.04](https://releases.ubuntu.com/jammy/)
 
 ## Create a Virtual Machine
 
