@@ -62,44 +62,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
   ```
 
 ## Install ROS 2 Humble
-
-- Add ROS repository and install:
-```bash
-locale  *# check for UTF-8*
-
-sudo apt update && sudo apt install locales
-sudo locale-gen en_US en_US.UTF-8
-sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-locale  *# verify settings*
-```
-
-```bash
-sudo apt install software-properties-common
-sudo add-apt-repository universe
-
-sudo apt update && sudo apt install curl -y
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
-
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-```
-
-
-```bash
-sudo apt update
-sudo apt upgrade
-
-sudo apt install ros-humble-desktop
-sudo apt install ros-dev-tools
-```
-
-Set up environment variables:
-  ```bash
-  source /opt/ros/humble/setup.bash
-  echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-  source ~/.bashrc
-  ```
+Follow the guide here https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 
 ## Clone and Set Up Shell Eco-marathon APC Docker Environment
 
